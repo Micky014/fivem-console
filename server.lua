@@ -53,7 +53,7 @@ function _Console:Utils()
     return Utils
 end
 
-exports("Console", _Console)
+exports("Console", function() return _Console end)
 
 -----------------------------
 
